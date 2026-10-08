@@ -240,7 +240,7 @@ image.jpg: SHA256 OK
 | ezcheck-ring                                   | 0.58 | 1.24 | 1.57 | 1.63 | 1.68 | 1.68  |
 | sha256sum                                      | 0.73 | 1.26 | 1.63 | 1.69 | 1.75 | 1.81  |
 
-![benchmark](./benchmark-sha256.png)
+https://x-cmd.com/draw?type=line&t=evil&title=SHA256%20Benchmark&unit=GiB%2Fs&labels=1,100,500,1000,5000,10000&series=Bare:2.13,3.02,4.59,5.31,5.97,6.07&series=ezcheck-hashes:0.13,0.28,0.29,0.30,0.30,0.30&series=ezcheck-ring:0.58,1.24,1.57,1.63,1.68,1.68&series=sha256sum:0.73,1.26,1.63,1.69,1.75,1.81
 
 ### Speed vs. Algorithms, Implementations
 
@@ -285,7 +285,7 @@ image.jpg: SHA256 OK
 
 * _N/A**: XXHASH is supported by all current backends; this historical benchmark table only recorded the mix-backend measurements for XXHASH._
 
-![benchmark](./benchmark-algorithms-implementations.png)
+https://x-cmd.com/draw?type=bar&t=evil&r=1&title=Speed%20vs.%20Algorithms%2C%20Implementations&unit=GiB%2Fs&labels=MD2,MD4,MD5,SHA1,SHA224,SHA256,SHA384,SHA512,SHA512%2F256,XXHASH32,XXHASH64,XXHASH3_64&series=ring:0,0,0,0,0,1.69,1.12,1.13,1.13,0,0,0&series=hashes:0.00896,0.852,0.549,0.802,0.299,0.298,0.473,0.473,0.473,0,0,0&series=mix:0.00896,0.852,0.549,0.802,0.299,1.70,1.13,1.13,1.13,2.45,3.27,3.65
 
 ## License
 
